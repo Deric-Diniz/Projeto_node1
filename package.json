@@ -1,0 +1,23 @@
+{
+  "name": "projeto_node1",
+  "version": "1.0.0",
+  "description": "5° semestre - repositorio micro serviço para acompanhamento de aulas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deric-Diniz/Projeto_node1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deric-Diniz/Projeto_node1/issues"
+  },
+  "homepage": "https://github.com/Deric-Diniz/Projeto_node1#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
