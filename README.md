@@ -43,3 +43,16 @@ npm i
 # Automatizar server
 
 npm start
+
+# Passo 3: instalar o restante das dependências
+instale o nodemon:
+
+npm install -D nodemon
+
+O nodemon reinicia o servidor automaticamente sempre que um arquivo for salvo.
+
+Para conectar a API ao MongoDB Atlas, instale o mongoose
+
+npm install mongoose
+
+O mongoose sera usado para conectar ao banco e buscar os documentos da colecao.
