@@ -2,8 +2,11 @@ const express = require('express')
 
 const app = express()
 
+app.get('/',(req, res) =>{
+    res.send("Rota padrao")
+})
 app.get('/teste',(req, res) =>{
-    res.send("Primeira Api")
+    res.send("Rota teste")
 })
 
 app.listen(3003, ()=>{
